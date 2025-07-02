@@ -12,6 +12,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/reboundplayz/bliss/re
     end
 end)()
 
+-- Fear
+coroutine.wrap(function()
+    while true do
+        wait(200)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://github.com/reboundplayz/ok-here-is-the-actual-boppies-model/blob/main/fear%20spawner"))()
+    end
+end)()
+
 -- Deezer
 coroutine.wrap(function()
     while true do
