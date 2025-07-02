@@ -15,7 +15,7 @@ end)()
 -- Fear
 coroutine.wrap(function()
     while true do
-        wait(200)
+        wait(230)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://github.com/reboundplayz/ok-here-is-the-actual-boppies-model/blob/main/fear%20spawner"))()
