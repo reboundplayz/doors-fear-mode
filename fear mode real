@@ -28,7 +28,7 @@ coroutine.wrap(function()
         wait(300)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastefy.app/CcSUlx8K/raw"))()
+loadstring(game:HttpGet("https://github.com/reboundplayz/ok-here-is-the-actual-boppies-model/raw/refs/heads/main/spawn%20nightmare%20hunger"))()
     end
 end)()
 
