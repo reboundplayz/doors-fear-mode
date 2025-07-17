@@ -5,7 +5,7 @@ require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("
 -- Bliss
 coroutine.wrap(function()
     while true do
-        wait(120)
+        wait(300)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 local plr = game.Players.LocalPlayer
@@ -80,7 +80,7 @@ end)()
 -- Nightmare Hunger
 coroutine.wrap(function()
     while true do
-        wait(300)
+        wait(450)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://github.com/reboundplayz/ok-here-is-the-actual-boppies-model/raw/refs/heads/main/spawn%20nightmare%20hunger"))()
@@ -90,7 +90,7 @@ end)()
 -- Greed
 coroutine.wrap(function()
     while true do
-        wait(80)
+        wait(120)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 -- Check current room
@@ -194,7 +194,7 @@ end)()
 -- Threat
 coroutine.wrap(function()
     while true do
-        wait(400)
+        wait(250)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 local Spawner = loadstring(game:HttpGet('https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/DoorEntitySpawn%2BSource'))()
