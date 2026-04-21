@@ -52,7 +52,7 @@ local entity = Spawner:Create({
 	},
 	Death = {
 		Type = "Guiding", -- "Curious"
-		Hints = {"Death", "Hints", "Go", "Here"},
+		Hints = {"You died to Common Sense...", "He is not easy to deal with...", "You must avoid him and his fire to not burn or go blind...", "Good luck next library visit..."},
 		Cause = ""
 	}
 })
